@@ -19,9 +19,9 @@ tabela_vendas = pd.read_excel('Vendas.xlsx')
 # para visualizar todas as colunas
 pd.set_option('display.max_columns', None)
 
-divisor = '=' * 50
+divisor = '=' * 50  
 #   2.Visualizar a base de dados
-    #   primeiro método 
+    #   primeiro método  
     #   print(tabela_vendas[['ID Loja','Valor Final']])
 
     #   segundo método
